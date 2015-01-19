@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yazisa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_password">passsword</string>
+    <string name="hint_usename">username</string>
+    <string name="btn_sign_in">SIGN IN</string>
+    <string name="title_activity_daily_register">Yazisa</string>
+    <string name="title_activity_absent">Absent</string>
+    <string name="title_activity_present">Present</string>
+    <string name="title_activity_report_learner">ReportLearner</string>
+select_acct        <string name="select_acct">Select Account</string>
+    <string name="title_activity_add_tasks">AddTasks</string>
+    <string name="title_activity_marked_register">MarkedRegister</string>
+
+</resources>

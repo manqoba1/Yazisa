@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ABV_logo"
+        android:src="@drawable/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:textColor="@color/black"
+        android:id="@+id/ABV_name"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ABV_logo"
+        android:layout_toEndOf="@+id/ABV_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Late"
+        android:id="@+id/ABV_late"
+        android:layout_marginRight="15dp"
+        style="@style/textRectangle"
+        android:layout_below="@+id/ABV_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:visibility="gone"
+        android:id="@+id/ABV_class_subj"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ABV_name"
+        android:layout_toRightOf="@+id/ABV_logo"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/ABV_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ABV_absentDate"
+        android:layout_below="@+id/ABV_class_subj"
+        android:layout_alignLeft="@+id/ABV_class_subj"
+        android:layout_alignStart="@+id/ABV_class_subj" />
+
+</RelativeLayout>

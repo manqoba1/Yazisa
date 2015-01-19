@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+
+        <item name="android:spinnerItemStyle">@style/RobotoSpinnerDropDown</item>
+    </style>
+
+    <style name="AppTheme2" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/absa_red</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/xaction_bar</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="actionMenuTextColor">@color/black</item>
+        <item name="android:spinnerItemStyle">@style/RobotoSpinnerDropDown</item>
+    </style>
+
+    <style name="MyActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="BlackCountOvalSmall" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/xround_text</item>
+    </style>
+    <style name="textRound" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@drawable/xround_text_view</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textRectangle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@drawable/xrect_text_view</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="buttonRectangle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@drawable/xrec_btn</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="buttonGray" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@drawable/xgray_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textRoundRed" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@drawable/xroud_red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textRoundGreen" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@drawable/xround_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="RobotoSpinnerTextStyle" parent="android:Widget.Holo.Light.TextView.SpinnerItem">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="RobotoSpinnerDropDownStyle" parent="android:Widget.Holo.Light.TextView.SpinnerItem">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="RobotoSpinnerDropDown" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

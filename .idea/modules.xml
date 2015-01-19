@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Parent/Parent.iml" filepath="$PROJECT_DIR$/Parent/Parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YLibrary/YLibrary.iml" filepath="$PROJECT_DIR$/YLibrary/YLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yazisa.iml" filepath="$PROJECT_DIR$/Yazisa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teacher/teacher.iml" filepath="$PROJECT_DIR$/teacher/teacher.iml" />
+    </modules>
+  </component>
+</project>
+
